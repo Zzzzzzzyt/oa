@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zyt</groupId>
+    <artifactId>oa</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>oa_dao</module>
+        <module>oa_biz</module>
+        <module>oa_web</module>
+    </modules>
+
+<!--两个bug
+1、jsp表单提交到后台出现乱码，字符编码过滤器，idea设置，tomcat，jsp均是utf-8
+2、修改报销单，添加报销单明细时，出现空指针异常。
+-->
+</project>
